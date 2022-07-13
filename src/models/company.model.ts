@@ -25,13 +25,14 @@ export class Company extends Entity {
   @hasMany(() => Product)
   products: Product[];
 
+
   constructor(data?: Partial<Company>) {
     super(data);
   }
 }
 
 export interface CompanyRelations {
-  // describe navigational properties here
+    // describe navigational properties here
 }
 
 export type CompanyWithRelations = Company & CompanyRelations;
