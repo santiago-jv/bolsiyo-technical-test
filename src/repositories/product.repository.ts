@@ -4,13 +4,13 @@ import {DatabaseDataSource} from '../datasources';
 import {Product, ProductRelations} from '../models';
 
 export class ProductRepository extends DefaultCrudRepository<
-  Product,
-  typeof Product.prototype.id,
-  ProductRelations
+    Product,
+    typeof Product.prototype.id,
+    ProductRelations
 > {
-  constructor(
-    @inject('datasources.database') dataSource: DatabaseDataSource,
-  ) {
-    super(Product, dataSource);
-  }
+    constructor(
+        @inject('datasources.database') dataSource: DatabaseDataSource,
+    ) {
+        super(Product, dataSource);
+    }
 }
