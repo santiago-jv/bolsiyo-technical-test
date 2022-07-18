@@ -6,6 +6,7 @@
 lista este paginada.
 
 [&check;] Eliminar un negocio con todos sus productos.
+
 [&check;] Actualizar los datos de un producto.
 
 [&check;] Top 5 de los productos mas costosos donde la cantidad de productos sea mayor a 10
